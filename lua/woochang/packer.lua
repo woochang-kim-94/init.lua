@@ -22,9 +22,12 @@ return require('packer').startup(function(use)
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
-  use('ThePrimeagen/harpoon')
+  --use('ThePrimeagen/harpoon')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
+  use('github/copilot.vim')
+  use('nvim-tree/nvim-tree.lua')
+  use('nvim-tree/nvim-web-devicons')
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v1.x',
